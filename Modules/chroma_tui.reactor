@@ -1,0 +1,4 @@
+proj chroma_tui {
+    library true shared
+    unreal_naming false
+}

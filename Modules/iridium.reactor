@@ -1,0 +1,18 @@
+proj iridium {
+    include
+        Src/Public
+        Public
+    @end
+    libraries
+        Libs/liblz4_static
+        Libs/zlib
+    @end
+    assets
+        Libs/libssl-3-x64.dll
+    @end
+}
+
+manifest {
+    version neon-0.1
+    tui_version chroma-0.1
+}
